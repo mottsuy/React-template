@@ -1,3 +1,9 @@
-# 初回起動時
+## 初回起動時
 
-```docker compose run --rm frontend npm install```
+```
+docker compose build
+docker compose run --rm frontend npm install
+```
+
+## 実行
+```docker compose up```
